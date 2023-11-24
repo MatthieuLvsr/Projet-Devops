@@ -1,5 +1,9 @@
 # Projet-Devops
 
+## Server docker
+Un server local GO a été mit en place pour réaliser une veille sur les mises à jours de l'image de ce projet.
+[docker-server](https://github.com/MatthieuLvsr/docker-server)
+
 ## GitFlow
 Ce projet suit un modèle GitFlow pour la gestion du code source. Le GitFlow définit un ensemble de branches pour organiser le développement, les versions et les corrections de bugs.
 
