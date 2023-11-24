@@ -3,6 +3,9 @@
 ## Server docker
 Un server local GO a été mit en place pour réaliser une veille sur les mises à jours de l'image de ce projet.
 [docker-server](https://github.com/MatthieuLvsr/docker-server)
+Il est aussi possible d'utiliser un container watchtower pour surveiller la mise à jours des images docker.
+`docker run -d --name watchtower -v /var/run/docker.sock:/var/run/docker.sock containrrr/watchtower --interval 60
+`
 
 ## GitFlow
 Ce projet suit un modèle GitFlow pour la gestion du code source. Le GitFlow définit un ensemble de branches pour organiser le développement, les versions et les corrections de bugs.
